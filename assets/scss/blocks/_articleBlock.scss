@@ -1,0 +1,44 @@
+/*======================
+----- ARTICLE BLOCK
+=======================*/
+
+.articleBlock {
+	width:100%;
+	padding-left: 2%;
+	background-color: #FC9400;
+	overflow: hidden;
+}
+
+.articleBlock__body {
+	width:100%;
+	background-color: white;
+	overflow:hidden;
+	.article__content {
+		width:70%;
+		float:left;
+	}
+}
+
+.articleBlock__headImage {
+	img {
+		width:100%;
+	}
+}
+
+.article__title {
+	font-size: 3.8rem;
+	line-height: 1.2;
+	color:#000;
+}
+
+.article__related {
+	width:30%;
+	float:right;
+}
+
+.article__text {
+	p {
+		font-size: 1.6rem;
+		line-height: 1.875;
+	}
+}

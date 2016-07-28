@@ -31,23 +31,26 @@
 
 
 //------LAYOUT
-@import 'layout/container/container',
+@import 'layout/mainContainer',
         'layout/grid/grid';
 
 
 //------COMPONENTS
-@import 'components/buttons/button', // NOT CORE
-        'components/quotes/quotes'; // NOT CORE
+
+
 
 
 //------BLOCKS
 @import 'blocks/flag/flag', // NOT CORE
         'blocks/navigation/navigation', // NOT CORE
-        'blocks/pagination/pagination', // NOT CORE
         'blocks/stickySocial/stickySocial', // NOT CORE
         'blocks/header/header',
         'blocks/footer/footer',
-        'blocks/sliders/slick/slickSlider'; // NOT CORE
+        'blocks/articleBlock',
+        'blocks/sliders/slick/slickSlider', // NOT CORE
+        'blocks/menuSidebar';
+
+
 
 
 //------PAGES
