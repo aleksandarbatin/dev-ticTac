@@ -1,8 +1,7 @@
 var slickSliderHP = require('./src/slickHome');
-var stickySocial  = require('./src/stickySocial');
-
-
+var sticky = require('./src/sticky');
 
 slickSliderHP('.hpSlider', '.hpSlider__dotsContainer', '.hpSlider__tag', '.hpSlider__title', '.hpSlider__slideTag', '.hpSlider__slideTitle');
 
-stickySocial('.sticky-social', 10); //#1 argument: sticky element; #2 distance from top when scrolling down
+sticky('.sticky', 20, false);
+// #1 sticky element class #2 top when sticky is fixed, #3 true: sticky is on the right || #false sticky is on the left

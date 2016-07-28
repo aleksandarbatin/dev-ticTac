@@ -2,16 +2,15 @@
 //------------STICKY-SOCIAL
 //-------------------------
 
-.sticky-helper {
-    display: inline-block;
-    width: 90%;
-    float: right;
-    font-size: 14px;
+.stickyParent {
+    position: relative;
+    background-color: red;
 }
-.sticky-social {
+.sticky {
     display: inline-block;
     width: 60px;
 
+    position: absolute;
     top: 0px;
 
     border: 1px solid black;
